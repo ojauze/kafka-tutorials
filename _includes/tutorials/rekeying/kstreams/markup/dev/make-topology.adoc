@@ -1,0 +1,5 @@
+Then create the following file at `src/main/java/io/confluent/developer/RekeyValue.java`. Notice the `buildTopology` method, which uses the Kafka Streams DSL. The `selectKey` method takes varargs of predicate functions over each record's key and value. `selectKey` assigns a new key – possibly of a new key type – to each record.
+
++++++
+<pre class="snippet"><code class="java">{% include_raw tutorials/rekeying/kstreams/code/src/main/java/io/confluent/developer/RekeyValue.java %}</code></pre>
++++++

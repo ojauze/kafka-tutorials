@@ -1,0 +1,5 @@
+Then create the following Avro schema file at `src/main/avro/rating.avsc` for the acting appearance events:
+
++++++
+<pre class="snippet"><code class="avro">{% include_raw tutorials/rekeying/kstreams/code/src/main/avro/rating.avsc %}</code></pre>
++++++

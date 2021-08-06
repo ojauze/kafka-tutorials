@@ -1,0 +1,15 @@
+{
+    "namespace": "io.confluent.developer.avro",
+    "type": "record",
+    "name": "Ratings",
+    "fields": [
+      {"name": "old", "type": "int"},
+      {"name": "id", "type": "int"},
+      {"name": "rating", "type": "double"}
+    ]
+  }
+
+
+
+
+

@@ -1,0 +1,13 @@
+Leave your original terminal running. To consume the output events from the rekeyed topic, you'll need to a new terminal windows. The prompt will hang, waiting for more events to arrive. To continue studying the example, send more events through the input terminal prompt. Otherwise, you can `Control-C` to exit the process.
+
+To consume the rekeyed events, run the following:
+
++++++
+<pre class="snippet"><code class="shell">{% include_raw tutorials/rekeying/kstreams/code/tutorial-steps/dev/console-consumer.sh %}</code></pre>
++++++
+
+This should yield the following messages:
+
++++++
+<pre class="snippet"><code class="txt">{% include_raw tutorials/rekeying/kstreams/code/tutorial-steps/dev/outputs/output-events.txt %}</code></pre>
++++++

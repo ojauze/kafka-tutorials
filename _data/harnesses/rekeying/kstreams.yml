@@ -17,8 +17,7 @@ dev:
 
     - title: Get Confluent Platform
       content:
-        - change_directory: rekey-a-stream
-          action: make_file
+        - action: make_file
           file: docker-compose.yml
           render:
             file: tutorials/rekeying/kstreams/markup/dev/make-docker-compose.adoc
@@ -62,7 +61,7 @@ dev:
             file: tutorials/rekeying/kstreams/markup/dev/make-avro-dir.adoc
 
         - action: make_file
-          file: src/main/avro/acting_event.avsc
+          file: src/main/avro/rating.avsc
           render:
             file: tutorials/rekeying/kstreams/markup/dev/make-rating-schema.adoc
 

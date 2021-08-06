@@ -1,9 +1,1 @@
-294-{"old": 1, "id": 294, "rating": 8.2}
-294-{"old": 2, "id": 294, "rating": 8.5}
-354-{"old": 3, "id": 354, "rating": 9.9}
-294-{"old": 4, "id": 354, "rating": 9.7}
-782-{"old": 5, "id": 782, "rating": 7.8}
-782-{"old": 6, "id": 782, "rating": 7.7}
-128-{"old": 7, "id": 128, "rating": 8.7}
-128-{"old": 8, "id": 128, "rating": 8.4}
-780-{"old": 9, "id": 780, "rating": 2.1}
+[2021-08-06 17:12:45,605] WARN [Consumer clientId=consumer-console-consumer-29387-1, groupId=console-consumer-29387] Error while fetching metadata with correlation id 2 : {ratings-rekeyed=LEADER_NOT_AVAILABLE} (org.apache.kafka.clients.NetworkClient)

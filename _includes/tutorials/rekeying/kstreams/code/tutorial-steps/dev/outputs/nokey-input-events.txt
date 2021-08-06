@@ -1,9 +1,0 @@
-null-{"old":1,"id":294,"rating":8.2}
-null-{"old":2,"id":294,"rating":8.5}
-null-{"old":3,"id":354,"rating":9.9}
-null-{"old":4,"id":354,"rating":9.7}
-null-{"old":5,"id":782,"rating":7.8}
-null-{"old":6,"id":782,"rating":7.7}
-null-{"old":7,"id":128,"rating":8.7}
-null-{"old":8,"id":128,"rating":8.4}
-null-{"old":9,"id":780,"rating":2.1}

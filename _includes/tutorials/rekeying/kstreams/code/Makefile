@@ -7,7 +7,5 @@ tutorial:
 	rm -r $(DEV_OUTPUTS_DIR) || true
 	mkdir $(DEV_OUTPUTS_DIR)
 	harness-runner ../../../../../_data/harnesses/rekeying/kstreams.yml $(TEMP_DIR) $(SEQUENCE)
-	diff --strip-trailing-cr $(STEPS_DIR)/dev/expected-drama-events.json $(DEV_OUTPUTS_DIR)/actual-drama-events.json
-	diff --strip-trailing-cr $(STEPS_DIR)/dev/expected-fantasy-events.json $(DEV_OUTPUTS_DIR)/actual-fantasy-events.json
-	diff --strip-trailing-cr $(STEPS_DIR)/dev/expected-other-events.json $(DEV_OUTPUTS_DIR)/actual-other-events.json
+	diff --strip-trailing-cr $(STEPS_DIR)/dev/ouputs/output-events.txt $(DEV_OUTPUTS_DIR)/input-events.json
 	reset

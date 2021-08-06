@@ -1,0 +1,9 @@
+Use the `selectKey` method, see below.  Notice the last predicate which simply returns the Id property as the new key for the output stream.
+
+```
+        final StreamsBuilder builder = new StreamsBuilder();
+        
+        builder.stream(inputTopic, Consumed.with(Serdes.String(), ratingSerde))
+                .selectKey((key, value) -> value.getId())
+                .to(outputTopic, Produced.with(Serdes.Integer(), ratingSerde));
+```
